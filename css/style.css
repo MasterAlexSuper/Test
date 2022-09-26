@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+  width: 1440px;
+  margin: auto;
+}
+main {
+  max-width: 1440px;
+}
+
+header {
+  height: 104px;
+}
+
+.icon {
+  width: 102px;
+  height: 61px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+
+.nav__item {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 100px;
+}
+
+.nav {
+  padding-top: 38px;
+  margin-left: 282px;
+  display: flex;
+}
+
+.nav__wraper {
+  display: flex;
+}
+
+.nav_right {
+  padding-right: 25px;
+  margin-top: 40px;
+}
+
+.right__header {
+  padding-left: 117px;
+  display: flex;
+}
+
+.nav__icon {
+  height: 25px;
+  width: 25px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.main_descr {
+  width: 462px;
+}
+
+.main__frame {
+  margin-left: 100px;
+}
+
+.sub_text {
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.btn{
+  text-decoration: none;
+  width: 173px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #000;
+  text-align: center;
+  margin-top: 27px;
+  border-radius: 40px;
+padding-bottom: 10px;
+}
+.btn>a{
+  text-decoration: none;
+  color: white;
+}
+.link{
+  padding-top: 15px ;
+  display: block;
+  padding-bottom: 10px;
+}
+.slide_1{
+  background-image: url(img/Mask\ Group-3.png) no-repeat;
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+.bg{
+  width: 1440px;
+  height: 600px;
+  position: absolute; 
+  top: 100px;
+}
+.slide_2 {
+}
+.description {
+}
+.why_us {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.dscr_scroll {
+  
+  width: 320px;
+  overflow-x: scroll;
+}
+.dscr_scroll::-webkit-scrollbar{
+  width: 15px;
+}
+
+.dscr_scroll::-webkit-scrollbar-button{
+
+}
+.dscr_scroll::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 15px;
+  width: 15px;
+  height: 15px;
+}
+.dscr_scroll::-webkit-scrollbar-track{
+  max-width: 2px;
+
+}
